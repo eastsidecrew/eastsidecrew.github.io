@@ -1,6 +1,6 @@
 [
   {
-    "Id": "10",
+    "Id": "Personal",
     "Name": "Person",
     "Items": [
       {
@@ -11,14 +11,14 @@
         "Type": "Image"
       },
       {
-        "Id": "20",
+        "Id": "FirstName",
         "Name": "Vorname",
         "Value": "Karl",
         "Extension": null,
         "Type": "Text"
       },
       {
-        "Id": "30",
+        "Id": "LastName",
         "Name": "Name",
         "Value": "Ranseier",
         "Extension": null,
