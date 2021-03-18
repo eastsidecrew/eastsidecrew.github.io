@@ -1,0 +1,63 @@
+[
+  {
+    "Id": "10",
+    "Name": "Person",
+    "Items": [
+      {
+        "Id": "10",
+        "Name": "Bild",
+        "Type": "Image",
+        "Value": ""
+      },
+      {
+        "Id": "20",
+        "Name": "Vorname",
+        "Value": ""
+      },
+      {
+        "Id": "30",
+        "Name": "Name",
+        "Value": ""
+      },
+      {
+        "Id": "40",
+        "Name": "Geburtstag",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "Id": "20",
+    "Name": "Kontakt",
+    "Items": [
+      {
+        "Id": "10",
+        "Name": "EMail-Adresse",
+        "Type": "EMail",
+        "Value": ""
+      },
+      {
+        "Id": "20",
+        "Name": "Handynummer",
+        "Type": "Phone",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "Id": "30",
+    "Name": "Arbeit",
+    "Items": [
+      {
+        "Id": "20",
+        "Name": "Gelernter Beruf",
+        "Value": ""
+      },
+      {
+        "Id": "30",
+        "Name": "Derzeitig ausgeübter Beruf",
+        "Value": ""
+      }
+    ]
+  }
+]
