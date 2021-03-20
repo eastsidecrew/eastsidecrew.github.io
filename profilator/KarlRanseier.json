@@ -34,7 +34,7 @@
     ]
   },
   {
-    "Id": "20",
+    "Id": "Contact",
     "Name": "Kontakt",
     "Items": [
       {
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "Id": "30",
+    "Id": "Work",
     "Name": "Arbeit",
     "Items": [
       {
