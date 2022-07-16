@@ -9,16 +9,76 @@
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="Profilator.styles.css" rel="stylesheet" />
+    <style>
+        :root {
+            --animation-speed: 1s;
+            --background-color: #212121;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--background-color);
+            font-family: var(--font);
+        }
+
+        .heart {
+            animation: heartbeat var(--animation-speed) infinite;
+            user-select: none;
+        }
+
+            .heart img {
+                width: 150px;
+            }
+
+        /* Animation */
+        @keyframes heartbeat {
+            0% {
+                transform: scale(0.75);
+            }
+
+            20% {
+                transform: scale(1);
+            }
+
+            40% {
+                transform: scale(0.75);
+            }
+
+            60% {
+                transform: scale(1);
+            }
+
+            80% {
+                transform: scale(0.75);
+            }
+
+            100% {
+                transform: scale(0.75);
+            }
+        }
+
+    </style>
 </head>
 
 <body>
-    <div id="app">Schnuggelizing data... </div>
+    <div class="heart">
+        <span style="font-size:2500%;">❤️</span>
+    </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="script/helper.js"></script>
     <script src="script/bootstrap/bootstrap.min.js"></script>
